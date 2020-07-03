@@ -1,0 +1,10 @@
+
+* Rename the components to be more specific.
+
+* Separate state from components and add them to the reducer
+
+* Define Actions that are required
+
+* Connect and mapPropsToValues 
+
+
