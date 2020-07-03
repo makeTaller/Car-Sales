@@ -5,8 +5,8 @@ import { remove_feature } from "../actions/actions.js";
 const AddedFeature = props => {
 
     const remove = (e) => {
-        e.preventDefault(),
-        props.remove_feature(props.key)
+        e.preventDefault()
+        props.remove_feature(props.feature)
     }
   return (
     <li>
